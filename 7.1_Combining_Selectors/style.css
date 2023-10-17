@@ -1,0 +1,18 @@
+/*Group Selector*/
+h1,h2
+{
+    color: blueviolet;
+}
+/* Direct Child Selector*/
+.box > p {
+    color:firebrick;
+}
+/* Descendant Selector */
+.box li {
+    color:blue;
+}
+/* Chaining Selector */
+li.done 
+{
+    color:seagreen;
+}
